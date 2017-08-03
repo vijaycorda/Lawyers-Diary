@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <servlet>
+        <servlet-name>index</servlet-name>
+        <servlet-class>lawyersdiary.co.index</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>index</servlet-name>
+        <url-pattern>/index</url-pattern>
+    </servlet-mapping>
+    
+   
+    
+     <servlet>
+        <servlet-name>home</servlet-name>
+        <servlet-class>lawyersdiary.co.home</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>home</servlet-name>
+        <url-pattern>/home</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>myclients</servlet-name>
+        <servlet-class>lawyersdiary.co.myclients</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>myclients</servlet-name>
+        <url-pattern>/myclients</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>addcases</servlet-name>
+        <servlet-class>lawyersdiary.co.addcases</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>addcases</servlet-name>
+        <url-pattern>/addcases</url-pattern>
+    </servlet-mapping>
+    
+    
+     <servlet>
+        <servlet-name>addhearing</servlet-name>
+        <servlet-class>lawyersdiary.co.addhearing</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>addhearing</servlet-name>
+        <url-pattern>/addhearing</url-pattern>
+    </servlet-mapping>
+     <servlet>
+        <servlet-name>viewclients</servlet-name>
+        <servlet-class>lawyersdiary.co.viewclients</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>viewclients</servlet-name>
+        <url-pattern>/viewclients</url-pattern>
+    </servlet-mapping>
+    
+         <servlet>
+         <servlet-name>viewhearing</servlet-name>
+        <servlet-class>lawyersdiary.co.viewhearing</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>viewhearing</servlet-name>
+        <url-pattern>/viewhearing</url-pattern>
+    </servlet-mapping>
+        
+       <servlet>
+         <servlet-name>searchappointment</servlet-name>
+        <servlet-class>lawyersdiary.co.searchappointment</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>searchappointment</servlet-name>
+        <url-pattern>/searchappointment</url-pattern>
+    </servlet-mapping>
+        
+        
+            <servlet>
+         <servlet-name>viewcases</servlet-name>
+        <servlet-class>lawyersdiary.co.viewcases</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>viewcases</servlet-name>
+        <url-pattern>/viewcases</url-pattern>
+    </servlet-mapping>
+      
+             <servlet>
+         <servlet-name>email</servlet-name>
+        <servlet-class>lawyersdiary.co.email</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>email</servlet-name>
+        <url-pattern>/email</url-pattern>
+    </servlet-mapping>
+    
+    
+           <servlet>
+         <servlet-name>SendMail</servlet-name>
+        <servlet-class>lawyersdiary.co.SendMail</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>SendMail</servlet-name>
+        <url-pattern>/SendMail</url-pattern>
+    </servlet-mapping>
+    
+    
+   <servlet>
+         <servlet-name>searchmails</servlet-name>
+        <servlet-class>lawyersdiary.co.searchmails</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>searchmails</servlet-name>
+        <url-pattern>/searchmails</url-pattern>
+    </servlet-mapping>
+    
+  
+    
+    
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
